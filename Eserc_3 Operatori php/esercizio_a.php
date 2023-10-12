@@ -12,7 +12,7 @@
     <form action="<?php echo($_SERVER["PHP_SELF"]) ?>" method="POST">
 
         Numero: <input type="number" id="numero" name="numero" required><br>
-        Shift right <input type="radio" name="operazione" value="shift_right"> <br>
+        Shift right <input type="radio" name="operazione" value="shift_right" checked> <br>
         Shift left <input type="radio" name="operazione" value="shift_left"> <br>
         Not <input type="radio" name="operazione" value="not"> <br><br>
 

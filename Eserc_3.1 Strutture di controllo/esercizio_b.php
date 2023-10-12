@@ -32,15 +32,15 @@
         function calcolaMCD($a, $b) {
             
             if ($a < $b) {
-                $temp = $a;
+                $t = $a;
                 $a = $b;
-                $b = $temp;
+                $b = $t;
             }
 
             while ($b != 0) {
-                $resto = $a % $b;
-                $a = $b;
-                $b = $resto;
+                $t = $b;
+                $b = $a % $b;
+                $a = $t;
             }
 
             return $a;

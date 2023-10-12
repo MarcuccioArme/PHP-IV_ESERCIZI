@@ -34,8 +34,6 @@
         $numero_uno = decbin($numero_uno);  //Trasformiamo il numero in binario usando "decbin()"
         $numero_due = decbin($numero_due);
 
-        $risultato;
-
         if ($operazione == "and") {
             $risultato = $numero_uno & $numero_due;
         } elseif ($operazione == "or") {

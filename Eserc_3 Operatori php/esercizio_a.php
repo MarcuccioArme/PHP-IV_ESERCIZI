@@ -29,8 +29,6 @@
         $numero = $_POST["numero"];
         $operazione = $_POST["operazione"];
 
-        $risultato;
-
         if ($operazione == "shift_right") {
             $risultato = $numero >> 1;
         } elseif ($operazione == "shift_left") {

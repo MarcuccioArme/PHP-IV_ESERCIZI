@@ -49,8 +49,8 @@
         $mcd = calcolaMCD($a, $b);
         $mcm = ($a * $b)/$mcd;
 
-        echo "Il Massimo Comun Divisore tra $a e $b è uguale a: $mcd <br>";
-        echo "Il minimo comune multiplo è: $mcm";
+        echo "<b>Il Massimo Comun Divisore tra $a e $b è uguale a: $mcd </b><br>";
+        echo "<b>Il minimo comune multiplo è: $mcm </b>";
 
     }
 ?>

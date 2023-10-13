@@ -43,7 +43,7 @@
         ),
         array(
             'tipo' => 'testo_con_immagine',
-            'contenuto' => '<marquee><h1>La nostra collezione di abbigliamento autunnale ti farà innamorare della moda. Dai cappotti eleganti agli accessori accattivanti, troverai tutto ciò di cui hai bisogno per affrontare la stagione con stile e comfort.</h1></marquee>',
+            'contenuto' => '<marquee scrollamount:10><h1>La nostra collezione di abbigliamento autunnale ti farà innamorare della moda. Dai cappotti eleganti agli accessori accattivanti, troverai tutto ciò di cui hai bisogno per affrontare la stagione con stile e comfort.</h1></marquee>',
             'immagine' => 'Immagini\img2.jpg',
         ),
         array(
@@ -55,7 +55,7 @@
 
         array(
             'tipo' => 'testo',
-            'contenuto' => '<marquee><h1>Se sei un appassionato di cucina, non puoi perderti la nostra selezione di utensili da cucina di alta qualità. Dai pentolame agli accessori da chef, abbiamo tutto ciò che serve per trasformare la tua cucina in un laboratorio culinario.</h1></marquee>',
+            'contenuto' => '<marquee scrollamount:10><h1>Se sei un appassionato di cucina, non puoi perderti la nostra selezione di utensili da cucina di alta qualità. Dai pentolame agli accessori da chef, abbiamo tutto ciò che serve per trasformare la tua cucina in un laboratorio culinario.</h1></marquee>',
         ),
         array(
             'tipo' => 'testo',

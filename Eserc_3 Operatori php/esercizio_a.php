@@ -34,7 +34,7 @@
         } elseif ($operazione == "shift_left") {
             $risultato = $numero << 1;
         } elseif ($operazione == "not") {
-            $risultato = ~ $numero;
+            $risultato = ~ $numero; //Convertire in binario e fare il binario delle singole cifre
         }
 
         echo "Risultato in binario: ". decbin($risultato) ."<br>";

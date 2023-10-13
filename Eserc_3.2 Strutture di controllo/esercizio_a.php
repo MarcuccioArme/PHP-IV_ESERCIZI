@@ -26,8 +26,10 @@
 
 <?php
 
+    // Definiamo un array di messaggi pubblicitari con vari tipi di contenuti.
     $messaggiPubblicitari = array(
 
+        // Ogni elemento dell'array rappresenta un messaggio pubblicitario.
         array(
             'tipo' => 'testo_con_immagine',
             'contenuto' => '<h1 class="blink" style="text-align: center">Vieni a visitare il nostro centro benessere e concediti un meritato relax. I nostri trattamenti olistici ti aiuteranno a ristabilire l\'equilibrio tra mente, corpo e anima, regalandoti una sensazione di serenità e rinascita.</h1>',
@@ -74,8 +76,10 @@
         
     );
 
+    // Selezioniamo casualmente un messaggio pubblicitario dall'array.
     $messaggioCasuale = $messaggiPubblicitari[rand(0, count($messaggiPubblicitari) - 1)];
 
+    // Ora, a seconda del tipo di messaggio, visualizziamo il contenuto appropriato.
     if ($messaggioCasuale['tipo'] == 'immagine') {
 
         // Se il messaggio è un'immagine, visualizzala

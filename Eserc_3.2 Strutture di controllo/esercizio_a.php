@@ -18,6 +18,12 @@
 
         .image-container {
             text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+        .image-container img {
+            width: 90vh;
+            height: auto;
         }
 </style>
 

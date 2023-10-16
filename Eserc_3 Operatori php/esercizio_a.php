@@ -25,7 +25,7 @@
 
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
+
         $numero = $_POST["numero"];
         $operazione = $_POST["operazione"];
 
@@ -34,7 +34,7 @@
         } elseif ($operazione == "shift_left") {
             $risultato = $numero << 1;
         } elseif ($operazione == "not") {
-            $risultato = ~ $numero; //Convertire in binario e fare il binario delle singole cifre
+            $risultato = ~ $numero;
         }
 
         echo "Risultato in binario: ". decbin($risultato) ."<br>";
